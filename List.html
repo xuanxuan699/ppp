@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>List</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<style type="text/css">
+				#Server{
+				background-image: url(img/搜索.png);
+				background-size: 25px 25px;
+				background-position: 5px 2px;
+				background-repeat: no-repeat;
+				padding: 15px 15px 15px 50px;
+				border:1px solid #ddd;
+				margin: 30px;
+				width: 880px;
+				}
+				.wgd{
+					text-align: center;
+					width: 80px;
+					height: 50px;
+					line-height: 50px;
+					background-color: #E7E7E7;
+				}
+				#Mytp img{
+					width: 125px;
+					height: 125px;
+				}
+				#mybut{
+					border: 0 solid;
+					 background-color: #F5F5F5;
+					 width:10px;
+					 height: 13px;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<input type="text" id="Server" value="搜索商品名称"/>
+					<span class="glyphicon glyphicon-filter" style="margin-left: -10px;top: 2px;"></span>
+				</div>
+			</div>
+			<hr width="100%"/>
+		</div>
+		<div class="container" style="margin-top: 35px;">
+			<div class="row">
+				<div class="col-sm-4" style="background-color: #D0E9C6;width: 110px;">
+					<a href="#" style="text-decoration:none;"><p class="wgd" style="color: black;">
+						<code style="color: white;background-color: red;font-size: 7px;">热</code> 
+						<b>今日优惠</b></p>
+					</a>
+					<a href="#" style="text-decoration:none;"><p class="wgd" style="color: black;">
+						<code style="color: white;background-color: red;font-size: 7px;">优</code> 
+						<b>进口鲜果</b></p>
+					</a>
+					<a href="#" style="text-decoration:none;"><p class="wgd" style="color: black;">
+						<code style="color: white;background-color: red;font-size: 7px;">优</code>
+						<b>时令鲜果</b></p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">今日鲜果</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">车厘子</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">柑橘橙柚</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">奇异果...</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">草莓/蓝莓</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">葡萄/提子</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">桃杏李</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">苹果/梨</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">瓜类</p>
+					</a>
+					<a href="#" style="text-decoration:none;">
+						<p class="wgd" style="color: black;">果干/零食</p>
+					</a>
+				</div>
+				<div class="col-sm-4" style="left: 20px;" id="Mytp">
+					<img src="img/圣女果.jpg" class="pull-left img-rounded"/>
+						<div style="margin-left: 175px;">
+							<h5 style="margin-top: 15px;">
+								<b>海南陵水圣女果   2斤装</b>
+							</h5>
+							<p style="color: #C0C0C0;">
+								酸酸甜甜根本停不下来!
+							</p>
+							<p style="color: #FF0000;">
+								<b style="color: #FF0000;">￥34.0</b>
+								<b style="color: #C0C0C0;font-size: 8px;">/份</b>
+								<button class="pull-right" id="mybut">
+									<span class="glyphicon glyphicon-plus-sign pull-right"></span>
+								</button>	
+							</p>
+						</div><br />
+					<hr />?????
+					<img src="img/车厘子0.jpg" class="pull-left img-rounded"/>
+						<div style="margin-left: 175px;">
+							<h5 style="margin-top: 15px;">
+								<b>智利JJ级蕾妮Rainier黄金车厘子约500g</b>
+							</h5>
+							<p style="color: #C0C0C0;">
+								再吃等一年!~蜜一样的天天滋味!
+							</p>
+							<p style="color: #FF0000;">
+								<b style="color: #FF0000;">￥34.0</b>
+								<b style="color: #C0C0C0;font-size: 8px;">/份</b>
+								<button class="pull-right">
+									<span class="glyphicon glyphicon-plus-sign pull-right"></span>
+								</button>	
+							</p>
+						</div>
+					<hr />
+					<img src="img/圣女果.jpg" class="pull-left img-rounded"/>
+						<div style="margin-left: 175px;">
+							<h5 style="margin-top: 15px;">
+								<b>江西浙南肚橙*3 约500g</b>
+							</h5>
+							<p style="color: #C0C0C0;">
+								水分超多,脆嫩清香,浓甜可口
+							</p>
+							<p style="color:#FF0000;">
+								<b style="color: #FF0000;">￥34.0</b>
+								<b style="color: #C0C0C0;font-size: 8px;">/份</b>
+								<button class="pull-right">
+									<span class="glyphicon glyphicon-plus-sign pull-right"></span>
+								</button>	
+							</p>
+						</div><br />
+					<hr />
+					<img src="img/圣女果.jpg" class="pull-left img-rounded"/>
+						<div style="margin-left: 175px;">
+							<h5 style="margin-top: 15px;">
+								<b>奥大利亚油桃*6 约800g</b>
+							</h5>
+							<p style="color: #C0C0C0;">
+								不亚于水蜜桃的高颜值冬桃!
+							</p>
+							<p style="color: #FF0000;">
+								<b style="color: #FF0000;">￥34.0</b>
+								<b style="color: #C0C0C0;font-size: 8px;">/份</b>
+								<button class="pull-right">
+									<span class="glyphicon glyphicon-plus-sign pull-right"></span>
+								</button>	
+							</p>
+						</div><br />
+					<hr />!!!!!
+					<img src="img/法国嘎啦苹果.jpg" class="pull-left img-rounded"/>
+						<div style="margin-left: 175px;">
+							<h5 style="margin-top: 15px;">
+								<b>湖南麻阳冰糖橙*6 约500g</b>
+							</h5>
+							<p style="color: #C0C0C0;">
+								好比冰糖的高甜度,细嫩可口!
+							</p>
+							<p style="color: #FF0000;">
+								<b style="color:#FF0000;">￥34.0</b>
+								<b style="color:#C0C0C0;font-size: 8px;">/份</b>
+								<button class="pull-right">
+									<span class="glyphicon glyphicon-plus-sign pull-right">	</span>
+								</button>
+							</p>
+						</div><br/>
+					<hr />
+				</div>
+			</div><br /><br /><br /><br />
+			<!--页脚-->
+			<nav class="navbar text-center navbar-fixed-bottom" style="background-color:#EBCCCC;">
+				<div class="container">
+					<div class="row text-center" style="margin-top: 10px;">
+						<div class="col-sm-3">
+							<a href="index.html"><span class="glyphicon glyphicon-home" style="font-size: 40px;"></span></a>
+							<p style="font-size: 10px;">首页</p>
+						</div>
+						<div class="col-sm-3">
+							<a href="List.html"><span class="glyphicon glyphicon-th-large" style="font-size: 40px;"></span></a>
+							<p style="font-size: 10px;">分类</p>
+						</div>
+						<div class="col-sm-3">
+							<a href="shpoing.html"><span class="glyphicon glyphicon-shopping-cart" style="font-size: 40px;"></span></a>
+							<p style="font-size: 10px;">购物车</p>
+						</div>
+						<div class="col-sm-3">
+							<a href="myown.html"><span class="glyphicon glyphicon-user" style="font-size: 40px;"></span></a>
+							<p style="font-size: 10px;">我的</p>
+						</div>
+					</div>
+				</div>
+		</nav>
+		</div>
+	</body>
+</html>
